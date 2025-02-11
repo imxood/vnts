@@ -63,7 +63,7 @@ rand = "0.8.5"
 chrono = "0.4.23"
 
 [profile.release]
-opt-level = 'z'
+opt-level = 3
 debug = 0
 debug-assertions = false
 strip = "debuginfo"
